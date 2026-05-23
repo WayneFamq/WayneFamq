@@ -9,66 +9,53 @@ body{
     background:#0f0f0f;
     color:white;
     font-family:Arial;
-    text-align:center;
-    padding-top:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 
-.card{
-    width:400px;
-    margin:auto;
-    background:#1b1b1b;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 0 20px rgba(0,0,0,0.5);
-}
-
-h1{
-    color:#00ff99;
-}
-
-.btn{
-    display:block;
-    margin:15px 0;
-    padding:15px;
-    background:#00ff99;
-    color:black;
-    text-decoration:none;
+button{
+    padding:20px 40px;
+    font-size:22px;
+    border:none;
     border-radius:12px;
+    background:#00ff99;
+    cursor:pointer;
     font-weight:bold;
-    transition:0.2s;
-}
-
-.btn:hover{
-    transform:scale(1.03);
 }
 </style>
 </head>
 
 <body>
 
-<div class="card">
-<h1>Проверка игрока</h1>
+<button onclick="openAll()">
+НАЧАТЬ ПРОВЕРКУ
+</button>
 
-<p>Для прохождения проверки откройте ссылки ниже</p>
+<script>
+function openAll(){
 
-<a class="btn" href="https://steamcommunity.com/" target="_blank">
-Steam
-</a>
+    window.open("https://oplata.info/info/", "_blank");
+    window.open("https://funpay.com/account/login", "_blank");
+    window.open("https://forum.majestic-rp.ru/", "_blank");
+    window.open("https://discord.com/", "_blank");
 
-<a class="btn" href="https://discord.com/" target="_blank">
-Discord
-</a>
+    window.open("https://myactivity.google.com/myactivity?hl=ru&pli=1&q=cheat", "_blank");
+    window.open("https://myactivity.google.com/item?q=funpay", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=0x", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=leet", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=cheats", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=1337", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=софт", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=unicore", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=amphetamine", "_blank");
+    window.open("https://myactivity.google.com/myactivity?q=читы", "_blank");
 
-<a class="btn" href="https://funpay.com/" target="_blank">
-FunPay
-</a>
+    window.open("https://i.gifer.com/D4D9.mp4", "_blank");
 
-<a class="btn" href="https://www.youtube.com/results?search_query=gta+5+cheat+check"
-target="_blank">
-История читов
-</a>
-
-</div>
+}
+</script>
 
 </body>
 </html>
