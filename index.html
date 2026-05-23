@@ -15,47 +15,60 @@ body{
     height:100vh;
 }
 
-button{
-    padding:20px 40px;
-    font-size:22px;
-    border:none;
-    border-radius:12px;
+.panel{
+    width:420px;
+    background:#1b1b1b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+h1{
+    color:#00ff99;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:block;
+    margin:10px 0;
+    padding:14px;
     background:#00ff99;
-    cursor:pointer;
+    color:black;
+    text-decoration:none;
+    border-radius:10px;
     font-weight:bold;
+    transition:0.2s;
+}
+
+.btn:hover{
+    transform:scale(1.03);
 }
 </style>
 </head>
 
 <body>
 
-<button onclick="openAll()">
-НАЧАТЬ ПРОВЕРКУ
-</button>
+<div class="panel">
 
-<script>
-function openAll(){
+<h1>Проверка игрока</h1>
 
-    window.open("https://oplata.info/info/", "_blank");
-    window.open("https://funpay.com/account/login", "_blank");
-    window.open("https://forum.majestic-rp.ru/", "_blank");
-    window.open("https://discord.com/", "_blank");
+<a class="btn" href="https://oplata.info/info/" target="_blank">OpLata Info</a>
 
-    window.open("https://myactivity.google.com/myactivity?hl=ru&pli=1&q=cheat", "_blank");
-    window.open("https://myactivity.google.com/item?q=funpay", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=0x", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=leet", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=cheats", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=1337", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=софт", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=unicore", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=amphetamine", "_blank");
-    window.open("https://myactivity.google.com/myactivity?q=читы", "_blank");
+<a class="btn" href="https://funpay.com/account/login" target="_blank">FunPay</a>
 
-    window.open("https://i.gifer.com/D4D9.mp4", "_blank");
+<a class="btn" href="https://forum.majestic-rp.ru/" target="_blank">Majestic RP Forum</a>
 
-}
-</script>
+<a class="btn" href="https://discord.com/" target="_blank">Discord</a>
+
+<a class="btn" href="https://myactivity.google.com/myactivity?hl=ru&pli=1&q=cheat" target="_blank">Google Activity (Cheat)</a>
+
+<a class="btn" href="https://myactivity.google.com/myactivity?q=1337" target="_blank">Google Activity (1337)</a>
+
+<a class="btn" href="https://myactivity.google.com/myactivity?q=читы" target="_blank">Google Activity (читы)</a>
+
+<a class="btn" href="https://i.gifer.com/D4D9.mp4" target="_blank">Проверка видео</a>
+
+</div>
 
 </body>
 </html>
